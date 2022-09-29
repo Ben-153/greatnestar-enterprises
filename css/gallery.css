@@ -1,0 +1,347 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px scroll-behavior 
+}
+.header{
+	width: 55%;
+	margin: 0 auto;
+	margin-top: 20px;
+	justify-content: center !important;
+}
+.header .header-main{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+}
+.header .header-main .navbar{
+	display: none;
+}
+.header .header-logo{
+	width: 75%;
+	margin: 0 auto;
+}
+.header .header-logo img{
+	width: 60px;
+	height: 50px;
+}
+.header .header-nav nav .checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+.header .header-nav nav #check{
+	display: none;
+}
+.header .header-nav ul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.header .header-nav ul li{
+	list-style: none;
+}
+.header .header-nav ul li a{
+	font-size: 13px;
+	font-weight: 300;
+	color: rgb(134, 135, 134);
+	text-decoration: none;
+}
+.gallery{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.gallery .gallery-header{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.gallery .gallery-header h2{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.gallery-images{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 8%;
+}
+.gallery-lightbox{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 30px;
+}
+.gallery-lightbox img{
+	width: 100%;
+}
+.contact{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.contact .contact-content{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+	border: 2px solid grey;
+	text-align: center;
+}
+.contact .contact-content p{
+	font-size: 22px;
+}
+.contact .contact-content p span{
+	font-weight: bold;
+}
+.contact .contact-content ul li{
+	list-style: none;
+}
+.contact .contact-content ul li a{
+	color: black;
+}
+.contact .contact-content .list ul li i{
+	color: black;
+	font-size: 15px;
+}
+.footer{
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+.footer .footer-logo{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.footer .footer-logo .logo-img{
+	width: 25%;
+	margin: 0 auto;
+}
+.footer .footer-logo .logo-img img{
+	width: 60px;
+	height: 50px;
+}
+.footer .footer-media{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;}
+.footer .footer-media p{
+	font-size: 21px;
+	margin-bottom: 30px;
+}
+.footer .footer-media .media-link{
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .footer-media .media-link .unit a i{
+	color: black;
+	font-size: 40px;
+	margin-bottom: 5px;
+	transition: ease .2s;
+}
+.footer .footer-media .media-link .unit a i:hover{
+	transform: scale(1.1);
+}
+@media screen and (max-width: 963px){
+	.footer .footer-media .media-link{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 768px){
+	.header{
+		width: 65%;
+	}
+	.header .header-main{
+		width: 50%;
+	}
+	.header .header-nav ul li a{
+		font-size: 12px;
+	}
+	.contact{
+		width: 100%;
+	}
+	.contact .contact-content{
+		width: 95%;
+	}
+	.contact .contact-content p{
+		font-size: 34px;
+		font-weight: 400;
+	}
+	.contact .contact-content p span{
+		font-weight: 700;
+	}
+	.contact .contact-content ul li{
+		list-style: none;
+		margin-top: 20px;
+	}
+	.contact .contact-content ul li a{
+		font-size: 14px;
+		color: black;
+		font-weight: 600;
+	}
+	.contact .contact-content .list ul li i{
+		color: black;
+		font-size: 15px;
+	}
+	.footer .footer-media{
+		width: 45%;
+	}
+	.footer .footer-media .media-link{
+		width: 90%;
+	}	
+}
+@media screen and (max-width: 704px){
+	.footer .footer-media .media-link{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 620px){
+	p{
+		font-size: 13px;
+	}
+	.header{
+		width: 100%;
+		position: relative;
+	}
+	.header .header-main{
+		width: 100%;
+		display: flex;
+	}
+	.header .header-logo{
+		width: 50%;
+		margin-left: 20px;
+		padding-top: 5px;
+	}
+	.header .header-logo img{
+		width: 40px;
+		height: 35px;
+	}
+	.header .header-logo .header-text p{
+		font-size: 18px;
+	}
+	.header .header-main .navbar{
+		display: block;
+		margin-top: 20px;
+		margin-right: 15px;
+	}
+	.header .header-nav{
+		width: 100%;
+		z-index: 10;
+	}
+	.header .header-nav nav .checkbtn{
+		display: block;
+		color: black;
+		margin-top: 20px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.header .header-nav ul{	
+		width: 100%;
+		background-color: green;
+		border-bottom: 2px solid grey;
+		display: block;
+		justify-content: space-between;
+		margin-top: 0px;
+		background-color: white;
+		line-height: 30px;
+		position: absolute;
+		top: 90px;
+		left:-100%;
+		z-index: 10;
+		transition: all .5s;
+	}
+	.header .header-nav ul li{
+		width: 90%;
+		list-style: none;
+		text-align: left;
+		margin: 25px auto;
+		margin-left: 20px;
+	}
+	.header .header-nav ul li a{
+		font-size: 17px;
+		transition: all .3s;
+	}
+	.header .header-nav ul li a:hover{
+		color: grey;
+	}
+	.header .header-nav ul.show{
+		left: 0;
+	}
+	.header .header-nav nav #check:checked ~ ul{
+		left: 0;
+	}
+	.banner .banner-content{
+		width: 65%;
+		position: absolute;
+		padding-top: 10px;
+		top: 18%;
+		left: 18%;
+	}
+	.banner .banner-content h2{
+		font-size: 28px;
+	}
+	.banner .banner-button{
+		position: absolute;
+		top: 78%;
+		left: 36%
+	}
+	.banner .banner-button button{
+		width: 140px;
+		height: 40px;
+	}
+	.about .about-face{
+		position: absolute;
+		left: 70% !important;
+	}
+	.about .about-face p{
+		position: absolute;
+	}
+}
+@media screen and (max-width: 565px){
+	.footer .footer-media{
+	width: 60%;	
+}
+	.footer .footer-media .media-link{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 411px){
+	.contact .contact-content p{
+		font-size: 31px;
+		font-weight: 400;
+	}
+	.footer .footer-media{
+		width: 65%;
+	}
+}
+@media screen and (max-width: 375px){
+	.footer .footer-media .media-link{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 320px){
+	.footer .footer-logo{
+		width: 80%;
+		font-size: 23px;
+	}
+	.footer .footer-media{
+		width: 70%;
+	}
+}
