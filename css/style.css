@@ -874,6 +874,9 @@ a:focus{
 	}
 } 
 @media screen and (max-width: 375px){
+	p{
+		font-size: 12px;
+	}
 	.banner .banner-content{
 		width: 70%;
 		position: absolute;
