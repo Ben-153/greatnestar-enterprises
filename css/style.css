@@ -686,6 +686,14 @@ a:focus{
 		width: 90%;
 	}	
 }
+@media screen and (max-width: 705px){
+	.banner .banner-content{
+		top: 15%;
+	}
+	.about .about-text p{
+		font-size: 12px;
+	}
+}
 @media screen and (max-width: 620px){
 	p{
 		font-size: 13px;
