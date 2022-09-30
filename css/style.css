@@ -805,6 +805,10 @@ a:focus{
 		top: 80%;
 		left: 34%
 	}
+	.services {
+		margin-top: 100px;
+		padding-top: 100px;
+	}
 }
 @media screen and (max-width: 470px){
 	.banner .banner-content{
@@ -829,6 +833,10 @@ a:focus{
 		font-size: 14px;
 		position: absolute;
 		top: 120px;
+	}
+	.services {
+		margin-top: 100px;
+		padding-top: 100px;
 	}
 	.collection .collection-items{
 		width: 95%;
