@@ -806,7 +806,7 @@ a:focus{
 		left: 34%
 	}
 	.services {
-		margin-top: 50px;
+		margin-top: 0px;
 	}
 }
 @media screen and (max-width: 470px){
