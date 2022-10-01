@@ -829,7 +829,7 @@ a:focus{
 	.about .about-face p{
 		width: 130px;
 		height: 38px;
-		font-size: 14px;
+		font-size: 12px;
 		position: absolute;
 		top: 120px;
 	}
@@ -865,7 +865,7 @@ a:focus{
 		font-size: 25px;
 	}
 	.banner .banner-button{
-		left: 30%
+		left: 27%
 	}
 	.about .about-face{
 		position: absolute;
@@ -873,7 +873,6 @@ a:focus{
 	}
 } 
 @media screen and (max-width: 375px){
-	
 	.banner .banner-content{
 		width: 70%;
 		position: absolute;
@@ -889,11 +888,11 @@ a:focus{
 	.banner .banner-button{
 		position: absolute;
 		top: 77%;
-		left: 28%
+		left: 24%
 	}
 	.banner .banner-button button{
-		width: 140px;
-		height: 40px;
+		width: 135px;
+		height: 37px;
 	}
 	.about .about-face{
 		position: absolute;
